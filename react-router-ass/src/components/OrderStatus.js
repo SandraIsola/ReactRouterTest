@@ -5,7 +5,7 @@ export const OrderStatus =() => {
 
     return (
         <>
-        <div>Order Confirmed!</div>
+        <div className='Status'>Order Confirmed!</div>
         <button onClick={() => navigate(-1)}>Go back</button>
         </>
     )
